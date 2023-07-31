@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-31T20:02:55 IST" name="Flipkart Test Suite" finished-at="2023-07-31T20:04:13 IST" duration-ms="78284">
+    <groups>
+      <group name="edge">
+        <method signature="EdgeTest.OpenFlipkartTest()[pri:0, instance:com.EdgeTest@45d84a20]" name="OpenFlipkartTest" class="com.EdgeTest"/>
+        <method signature="EdgeTest.SearchingIphone13()[pri:0, instance:com.EdgeTest@45d84a20]" name="SearchingIphone13" class="com.EdgeTest"/>
+        <method signature="EdgeTest.ProductImagesLoadedTest()[pri:0, instance:com.EdgeTest@45d84a20]" name="ProductImagesLoadedTest" class="com.EdgeTest"/>
+        <method signature="EdgeTest.ScrollAvailabilityTest()[pri:0, instance:com.EdgeTest@45d84a20]" name="ScrollAvailabilityTest" class="com.EdgeTest"/>
+        <method signature="EdgeTest.scrollToBottomTest()[pri:0, instance:com.EdgeTest@45d84a20]" name="scrollToBottomTest" class="com.EdgeTest"/>
+        <method signature="EdgeTest.checkContentRefreshFrequency()[pri:0, instance:com.EdgeTest@45d84a20]" name="checkContentRefreshFrequency" class="com.EdgeTest"/>
+      </group> <!-- edge -->
+      <group name="chrome">
+        <method signature="ChromeTest.OpenFlipkartTest()[pri:0, instance:com.ChromeTest@8458f04]" name="OpenFlipkartTest" class="com.ChromeTest"/>
+        <method signature="ChromeTest.SearchingIphone13()[pri:0, instance:com.ChromeTest@8458f04]" name="SearchingIphone13" class="com.ChromeTest"/>
+        <method signature="ChromeTest.ProductImagesLoadedTest()[pri:0, instance:com.ChromeTest@8458f04]" name="ProductImagesLoadedTest" class="com.ChromeTest"/>
+        <method signature="ChromeTest.ScrollAvailabilityTest()[pri:0, instance:com.ChromeTest@8458f04]" name="ScrollAvailabilityTest" class="com.ChromeTest"/>
+        <method signature="ChromeTest.scrollToBottomTest()[pri:0, instance:com.ChromeTest@8458f04]" name="scrollToBottomTest" class="com.ChromeTest"/>
+        <method signature="ChromeTest.checkContentRefreshFrequency()[pri:0, instance:com.ChromeTest@8458f04]" name="checkContentRefreshFrequency" class="com.ChromeTest"/>
+      </group> <!-- chrome -->
+    </groups>
+    <test started-at="2023-07-31T20:02:55 IST" name="Chrome Test" finished-at="2023-07-31T20:03:34 IST" duration-ms="39754">
+      <class name="com.ChromeTest">
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:02:55 IST" name="Setup" finished-at="2023-07-31T20:02:58 IST" duration-ms="3688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e68401]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="OpenFlipkartTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:02:58 IST" name="OpenFlipkartTest" finished-at="2023-07-31T20:03:09 IST" duration-ms="10832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFlipkartTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:09 IST" name="checkStatus" finished-at="2023-07-31T20:03:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ChromeTest.OpenFlipkartTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OpenFlipkartTest status=SUCCESS method=ChromeTest.OpenFlipkartTest()[pri:0, instance:com.ChromeTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="SearchingIphone13()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:09 IST" name="SearchingIphone13" finished-at="2023-07-31T20:03:14 IST" depends-on-methods="com.ChromeTest.OpenFlipkartTest" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchingIphone13 -->
+        <test-method signature="ProductImagesLoadedTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="ProductImagesLoadedTest" finished-at="2023-07-31T20:03:14 IST" depends-on-methods="com.ChromeTest.SearchingIphone13" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductImagesLoadedTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="checkStatus" finished-at="2023-07-31T20:03:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ChromeTest.SearchingIphone13() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SearchingIphone13 status=SUCCESS method=ChromeTest.SearchingIphone13()[pri:0, instance:com.ChromeTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="ScrollAvailabilityTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="ScrollAvailabilityTest" finished-at="2023-07-31T20:03:17 IST" depends-on-methods="com.ChromeTest.ProductImagesLoadedTest" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollAvailabilityTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="checkStatus" finished-at="2023-07-31T20:03:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ChromeTest.ProductImagesLoadedTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ProductImagesLoadedTest status=SUCCESS method=ChromeTest.ProductImagesLoadedTest()[pri:0, instance:com.ChromeTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:17 IST" name="checkStatus" finished-at="2023-07-31T20:03:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ChromeTest.ScrollAvailabilityTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ScrollAvailabilityTest status=SUCCESS method=ChromeTest.ScrollAvailabilityTest()[pri:0, instance:com.ChromeTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="scrollToBottomTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:17 IST" name="scrollToBottomTest" finished-at="2023-07-31T20:03:19 IST" depends-on-methods="com.ChromeTest.ScrollAvailabilityTest" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToBottomTest -->
+        <test-method signature="checkContentRefreshFrequency()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:19 IST" name="checkContentRefreshFrequency" finished-at="2023-07-31T20:03:34 IST" depends-on-methods="com.ChromeTest.scrollToBottomTest" duration-ms="15105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentRefreshFrequency -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:19 IST" name="checkStatus" finished-at="2023-07-31T20:03:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ChromeTest.scrollToBottomTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=scrollToBottomTest status=SUCCESS method=ChromeTest.scrollToBottomTest()[pri:0, instance:com.ChromeTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:34 IST" name="checkStatus" finished-at="2023-07-31T20:03:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ChromeTest.checkContentRefreshFrequency()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkContentRefreshFrequency status=SUCCESS method=ChromeTest.checkContentRefreshFrequency()[pri:0, instance:com.ChromeTest@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="CloseProcess()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:34 IST" name="CloseProcess" finished-at="2023-07-31T20:03:34 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseProcess -->
+      </class> <!-- com.ChromeTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-07-31T20:03:34 IST" name="Edge Test" finished-at="2023-07-31T20:04:13 IST" duration-ms="38515">
+      <class name="com.EdgeTest">
+        <test-method is-config="true" signature="InitializeReport()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:02:54 IST" name="InitializeReport" finished-at="2023-07-31T20:02:55 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeReport -->
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:34 IST" name="Setup" finished-at="2023-07-31T20:03:37 IST" duration-ms="2648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@391515c7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="OpenFlipkartTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:37 IST" name="OpenFlipkartTest" finished-at="2023-07-31T20:03:48 IST" duration-ms="10929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFlipkartTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:48 IST" name="checkStatus" finished-at="2023-07-31T20:03:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.EdgeTest.OpenFlipkartTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OpenFlipkartTest status=SUCCESS method=EdgeTest.OpenFlipkartTest()[pri:0, instance:com.EdgeTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="SearchingIphone13()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:48 IST" name="SearchingIphone13" finished-at="2023-07-31T20:03:53 IST" depends-on-methods="com.EdgeTest.OpenFlipkartTest" duration-ms="4638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchingIphone13 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="checkStatus" finished-at="2023-07-31T20:03:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.EdgeTest.SearchingIphone13() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SearchingIphone13 status=SUCCESS method=EdgeTest.SearchingIphone13()[pri:0, instance:com.EdgeTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="ProductImagesLoadedTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="ProductImagesLoadedTest" finished-at="2023-07-31T20:03:53 IST" depends-on-methods="com.EdgeTest.SearchingIphone13" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductImagesLoadedTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="checkStatus" finished-at="2023-07-31T20:03:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.EdgeTest.ProductImagesLoadedTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ProductImagesLoadedTest status=SUCCESS method=EdgeTest.ProductImagesLoadedTest()[pri:0, instance:com.EdgeTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="ScrollAvailabilityTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="ScrollAvailabilityTest" finished-at="2023-07-31T20:03:55 IST" depends-on-methods="com.EdgeTest.ProductImagesLoadedTest" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollAvailabilityTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:55 IST" name="checkStatus" finished-at="2023-07-31T20:03:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.EdgeTest.ScrollAvailabilityTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ScrollAvailabilityTest status=SUCCESS method=EdgeTest.ScrollAvailabilityTest()[pri:0, instance:com.EdgeTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="scrollToBottomTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:55 IST" name="scrollToBottomTest" finished-at="2023-07-31T20:03:57 IST" depends-on-methods="com.EdgeTest.ScrollAvailabilityTest" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToBottomTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:57 IST" name="checkStatus" finished-at="2023-07-31T20:03:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.EdgeTest.scrollToBottomTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=scrollToBottomTest status=SUCCESS method=EdgeTest.scrollToBottomTest()[pri:0, instance:com.EdgeTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="checkContentRefreshFrequency()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:57 IST" name="checkContentRefreshFrequency" finished-at="2023-07-31T20:04:13 IST" depends-on-methods="com.EdgeTest.scrollToBottomTest" duration-ms="15078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentRefreshFrequency -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:04:13 IST" name="checkStatus" finished-at="2023-07-31T20:04:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.EdgeTest.checkContentRefreshFrequency()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkContentRefreshFrequency status=SUCCESS method=EdgeTest.checkContentRefreshFrequency()[pri:0, instance:com.EdgeTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="CloseProcess()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:04:13 IST" name="CloseProcess" finished-at="2023-07-31T20:04:13 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseProcess -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:04:13 IST" name="generateReport" finished-at="2023-07-31T20:04:13 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.EdgeTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Flipkart Test Suite -->
+</testng-results>

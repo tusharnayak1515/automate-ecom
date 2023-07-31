@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <classes>
+      <class name="com.ChromeTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="InitializeReport"/>
+          <include name="CloseProcess"/>
+          <include name="generateReport"/>
+          <include name="OpenFlipkartTest"/>
+          <include name="checkStatus"/>
+        </methods>
+      </class> <!-- com.ChromeTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
