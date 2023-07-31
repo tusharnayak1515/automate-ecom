@@ -16,7 +16,7 @@ import org.testng.asserts.SoftAssert;
 public class EdgeTest extends DemoTest {
 	public SoftAssert soft = new SoftAssert();
 	
-	@Test(groups = "edge", testName = "Edge Test")
+	@Test(groups = { "edge" }, testName = "Edge Test")
 	public void OpenFlipkartTest() throws Exception
 	{			
 		try {
@@ -43,7 +43,7 @@ public class EdgeTest extends DemoTest {
 				
 	}
 	
-	@Test(groups = "edge", dependsOnMethods = "OpenFlipkartTest")
+	@Test(groups = { "edge" }, dependsOnMethods = "OpenFlipkartTest")
 	public void SearchingIphone13() throws Exception
 	{			
 		try {
@@ -81,7 +81,7 @@ public class EdgeTest extends DemoTest {
 				
 	}
 	
-	@Test(groups = "edge", dependsOnMethods = "SearchingIphone13")
+	@Test(groups = { "edge" }, dependsOnMethods = "SearchingIphone13")
 	public void ProductImagesLoadedTest() {
 		soft.assertTrue(areProductImagesLoaded());
 		
@@ -101,7 +101,7 @@ public class EdgeTest extends DemoTest {
         return true;
 	}
 	
-	@Test(groups = "edge", dependsOnMethods = "ProductImagesLoadedTest")
+	@Test(groups = { "edge" }, dependsOnMethods = "ProductImagesLoadedTest")
 	public void ScrollAvailabilityTest() {
 		soft.assertTrue(isScrollFeatureAvailable());
 		
@@ -123,7 +123,7 @@ public class EdgeTest extends DemoTest {
         }
     }
 	
-	@Test(groups = "edge", dependsOnMethods = "ScrollAvailabilityTest")
+	@Test(groups = { "edge" }, dependsOnMethods = "ScrollAvailabilityTest")
 	public void scrollToBottomTest() throws Exception {
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
         String filename = "ScrollToBottom - " + "Edge" + ".jpg";
@@ -146,7 +146,7 @@ public class EdgeTest extends DemoTest {
 	    return windowHeight.longValue() + scrollPosition.longValue() >= totalPageHeight.longValue()-10;
 	}
 	
-	@Test(groups = "edge", dependsOnMethods = "scrollToBottomTest")
+	@Test(groups = { "edge" }, dependsOnMethods = "scrollToBottomTest")
 	public void checkContentRefreshFrequency() {
         List<Long> timeDifferences = new ArrayList<Long>();
 

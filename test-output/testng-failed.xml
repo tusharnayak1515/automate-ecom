@@ -15,9 +15,10 @@
           <include name="SearchingIphone13"/>
           <include name="generateReport"/>
           <include name="checkContentRefreshFrequency"/>
-          <include name="checkStatus"/>
-          <include name="ProductImagesLoadedTest"/>
+          <include name="ScrollAvailabilityTest"/>
           <include name="Setup"/>
+          <include name="ProductImagesLoadedTest"/>
+          <include name="checkStatus"/>
           <include name="scrollToBottomTest"/>
           <include name="InitializeReport"/>
           <include name="CloseProcess"/>

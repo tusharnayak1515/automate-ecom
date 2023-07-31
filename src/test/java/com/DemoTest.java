@@ -65,15 +65,6 @@ public class DemoTest {
 		String device = capabilities.getBrowserName() + "<===>" + capabilities.getBrowserVersion();
 		String author = "Tushar Ranjan Nayak";
 		
-		ExtentSparkReporter  sparkreport = new ExtentSparkReporter("AllTests.html");
-		sparkreport.config().setReportName("All Test Report");
-		
-		extentReport = new ExtentReports();
-		extentReport.attachReporter(sparkreport);
-		
-		extentReport.setSystemInfo("OS", System.getProperty("os.name"));
-		extentReport.setSystemInfo("Java Version", System.getProperty("java.version"));	
-		
 		extentTest = extentReport.createTest(context.getName());
 		extentTest.assignAuthor(author);
 		extentTest.assignDevice(device);

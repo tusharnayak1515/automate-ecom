@@ -16,7 +16,7 @@ import org.testng.asserts.SoftAssert;
 public class ChromeTest extends DemoTest {
 	public SoftAssert soft = new SoftAssert();
 	
-	@Test(groups = "chrome", testName = "Chrome Test")
+	@Test(groups = { "chrome" }, testName = "Chrome Test")
 	public void OpenFlipkartTest() throws Exception
 	{			
 		try {
@@ -43,7 +43,7 @@ public class ChromeTest extends DemoTest {
 				
 	}
 	
-	@Test(groups = "chrome", dependsOnMethods = "OpenFlipkartTest")
+	@Test(groups = { "chrome" }, dependsOnMethods = "OpenFlipkartTest")
 	public void SearchingIphone13() throws Exception
 	{			
 		try {
@@ -81,7 +81,7 @@ public class ChromeTest extends DemoTest {
 				
 	}
 	
-	@Test(groups = "chrome", dependsOnMethods = "SearchingIphone13")
+	@Test(groups = { "chrome" }, dependsOnMethods = "SearchingIphone13")
 	public void ProductImagesLoadedTest() {
 		soft.assertTrue(areProductImagesLoaded());
 		
@@ -101,7 +101,7 @@ public class ChromeTest extends DemoTest {
         return true;
 	}
 	
-	@Test(groups = "chrome", dependsOnMethods = "ProductImagesLoadedTest")
+	@Test(groups = { "chrome" }, dependsOnMethods = "ProductImagesLoadedTest")
 	public void ScrollAvailabilityTest() {
 		soft.assertTrue(isScrollFeatureAvailable());
 		
@@ -123,7 +123,7 @@ public class ChromeTest extends DemoTest {
         }
     }
 	
-	@Test(groups = "chrome", dependsOnMethods = "ScrollAvailabilityTest")
+	@Test(groups = { "chrome" }, dependsOnMethods = "ScrollAvailabilityTest")
 	public void scrollToBottomTest() throws Exception {
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
         String filename = "ScrollToBottom - " + "Chrome" + ".jpg";
@@ -146,7 +146,7 @@ public class ChromeTest extends DemoTest {
 	    return windowHeight.longValue() + scrollPosition.longValue() >= totalPageHeight.longValue()-10;
 	}
 	
-	@Test(groups = "chrome", dependsOnMethods = "scrollToBottomTest")
+	@Test(groups = { "chrome" }, dependsOnMethods = "scrollToBottomTest")
 	public void checkContentRefreshFrequency() {
         List<Long> timeDifferences = new ArrayList<Long>();
 

@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-31T20:02:55 IST" name="Flipkart Test Suite" finished-at="2023-07-31T20:04:13 IST" duration-ms="78284">
+  <suite started-at="2023-07-31T20:35:28 IST" name="Flipkart Test Suite" finished-at="2023-07-31T20:36:56 IST" duration-ms="87374">
     <groups>
       <group name="edge">
         <method signature="EdgeTest.OpenFlipkartTest()[pri:0, instance:com.EdgeTest@45d84a20]" name="OpenFlipkartTest" class="com.EdgeTest"/>
@@ -21,13 +21,13 @@
         <method signature="ChromeTest.checkContentRefreshFrequency()[pri:0, instance:com.ChromeTest@8458f04]" name="checkContentRefreshFrequency" class="com.ChromeTest"/>
       </group> <!-- chrome -->
     </groups>
-    <test started-at="2023-07-31T20:02:55 IST" name="Chrome Test" finished-at="2023-07-31T20:03:34 IST" duration-ms="39754">
+    <test started-at="2023-07-31T20:35:28 IST" name="Chrome Test" finished-at="2023-07-31T20:36:13 IST" duration-ms="44598">
       <class name="com.ChromeTest">
-        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:02:55 IST" name="Setup" finished-at="2023-07-31T20:02:58 IST" duration-ms="3688" status="PASS">
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:28 IST" name="Setup" finished-at="2023-07-31T20:35:33 IST" duration-ms="4469" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@78e68401]]>
+                <![CDATA[org.testng.TestRunner@2478b629]]>
               </value>
             </param>
             <param index="1">
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="OpenFlipkartTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:02:58 IST" name="OpenFlipkartTest" finished-at="2023-07-31T20:03:09 IST" duration-ms="10832" status="PASS">
+        <test-method signature="OpenFlipkartTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:33 IST" name="OpenFlipkartTest" finished-at="2023-07-31T20:35:42 IST" duration-ms="8953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenFlipkartTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:09 IST" name="checkStatus" finished-at="2023-07-31T20:03:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:42 IST" name="checkStatus" finished-at="2023-07-31T20:35:42 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,15 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="SearchingIphone13()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:09 IST" name="SearchingIphone13" finished-at="2023-07-31T20:03:14 IST" depends-on-methods="com.ChromeTest.OpenFlipkartTest" duration-ms="5000" status="PASS">
+        <test-method signature="SearchingIphone13()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:42 IST" name="SearchingIphone13" finished-at="2023-07-31T20:35:53 IST" depends-on-methods="com.ChromeTest.OpenFlipkartTest" duration-ms="10968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchingIphone13 -->
-        <test-method signature="ProductImagesLoadedTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="ProductImagesLoadedTest" finished-at="2023-07-31T20:03:14 IST" depends-on-methods="com.ChromeTest.SearchingIphone13" duration-ms="261" status="PASS">
+        <test-method signature="ProductImagesLoadedTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:53 IST" name="ProductImagesLoadedTest" finished-at="2023-07-31T20:35:53 IST" depends-on-methods="com.ChromeTest.SearchingIphone13" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductImagesLoadedTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="checkStatus" finished-at="2023-07-31T20:03:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:53 IST" name="checkStatus" finished-at="2023-07-31T20:35:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,11 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="ScrollAvailabilityTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="ScrollAvailabilityTest" finished-at="2023-07-31T20:03:17 IST" depends-on-methods="com.ChromeTest.ProductImagesLoadedTest" duration-ms="2266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ScrollAvailabilityTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:14 IST" name="checkStatus" finished-at="2023-07-31T20:03:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:53 IST" name="checkStatus" finished-at="2023-07-31T20:35:53 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +99,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:17 IST" name="checkStatus" finished-at="2023-07-31T20:03:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="ScrollAvailabilityTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:53 IST" name="ScrollAvailabilityTest" finished-at="2023-07-31T20:35:55 IST" depends-on-methods="com.ChromeTest.ProductImagesLoadedTest" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollAvailabilityTest -->
+        <test-method signature="scrollToBottomTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:55 IST" name="scrollToBottomTest" finished-at="2023-07-31T20:35:57 IST" depends-on-methods="com.ChromeTest.ScrollAvailabilityTest" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToBottomTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:55 IST" name="checkStatus" finished-at="2023-07-31T20:35:55 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,15 +123,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="scrollToBottomTest()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:17 IST" name="scrollToBottomTest" finished-at="2023-07-31T20:03:19 IST" depends-on-methods="com.ChromeTest.ScrollAvailabilityTest" duration-ms="2307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollToBottomTest -->
-        <test-method signature="checkContentRefreshFrequency()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:19 IST" name="checkContentRefreshFrequency" finished-at="2023-07-31T20:03:34 IST" depends-on-methods="com.ChromeTest.scrollToBottomTest" duration-ms="15105" status="PASS">
+        <test-method signature="checkContentRefreshFrequency()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:57 IST" name="checkContentRefreshFrequency" finished-at="2023-07-31T20:36:12 IST" depends-on-methods="com.ChromeTest.scrollToBottomTest" duration-ms="15094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentRefreshFrequency -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:19 IST" name="checkStatus" finished-at="2023-07-31T20:03:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:35:57 IST" name="checkStatus" finished-at="2023-07-31T20:35:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:34 IST" name="checkStatus" finished-at="2023-07-31T20:03:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:36:12 IST" name="checkStatus" finished-at="2023-07-31T20:36:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,23 +159,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="CloseProcess()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:03:34 IST" name="CloseProcess" finished-at="2023-07-31T20:03:34 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="CloseProcess()[pri:0, instance:com.ChromeTest@8458f04]" started-at="2023-07-31T20:36:12 IST" name="CloseProcess" finished-at="2023-07-31T20:36:13 IST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseProcess -->
       </class> <!-- com.ChromeTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2023-07-31T20:03:34 IST" name="Edge Test" finished-at="2023-07-31T20:04:13 IST" duration-ms="38515">
+    <test started-at="2023-07-31T20:36:13 IST" name="Edge Test" finished-at="2023-07-31T20:36:56 IST" duration-ms="42761">
       <class name="com.EdgeTest">
-        <test-method is-config="true" signature="InitializeReport()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:02:54 IST" name="InitializeReport" finished-at="2023-07-31T20:02:55 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="InitializeReport()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:35:28 IST" name="InitializeReport" finished-at="2023-07-31T20:35:28 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitializeReport -->
-        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:34 IST" name="Setup" finished-at="2023-07-31T20:03:37 IST" duration-ms="2648" status="PASS">
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:13 IST" name="Setup" finished-at="2023-07-31T20:36:16 IST" duration-ms="2876" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@391515c7]]>
+                <![CDATA[org.testng.TestRunner@39023dbf]]>
               </value>
             </param>
             <param index="1">
@@ -187,11 +187,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="OpenFlipkartTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:37 IST" name="OpenFlipkartTest" finished-at="2023-07-31T20:03:48 IST" duration-ms="10929" status="PASS">
+        <test-method signature="OpenFlipkartTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:16 IST" name="OpenFlipkartTest" finished-at="2023-07-31T20:36:29 IST" duration-ms="12867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenFlipkartTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:48 IST" name="checkStatus" finished-at="2023-07-31T20:03:48 IST" duration-ms="1" status="PASS">
+        <test-method signature="SearchingIphone13()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:29 IST" name="SearchingIphone13" finished-at="2023-07-31T20:36:35 IST" depends-on-methods="com.EdgeTest.OpenFlipkartTest" duration-ms="6533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchingIphone13 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:29 IST" name="checkStatus" finished-at="2023-07-31T20:36:29 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,11 +211,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="SearchingIphone13()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:48 IST" name="SearchingIphone13" finished-at="2023-07-31T20:03:53 IST" depends-on-methods="com.EdgeTest.OpenFlipkartTest" duration-ms="4638" status="PASS">
+        <test-method signature="ProductImagesLoadedTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:35 IST" name="ProductImagesLoadedTest" finished-at="2023-07-31T20:36:35 IST" depends-on-methods="com.EdgeTest.SearchingIphone13" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchingIphone13 -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="checkStatus" finished-at="2023-07-31T20:03:53 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- ProductImagesLoadedTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:35 IST" name="checkStatus" finished-at="2023-07-31T20:36:35 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,11 +231,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="ProductImagesLoadedTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="ProductImagesLoadedTest" finished-at="2023-07-31T20:03:53 IST" depends-on-methods="com.EdgeTest.SearchingIphone13" duration-ms="229" status="PASS">
+        <test-method signature="ScrollAvailabilityTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:35 IST" name="ScrollAvailabilityTest" finished-at="2023-07-31T20:36:38 IST" depends-on-methods="com.EdgeTest.ProductImagesLoadedTest" duration-ms="2286" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProductImagesLoadedTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="checkStatus" finished-at="2023-07-31T20:03:53 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- ScrollAvailabilityTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:35 IST" name="checkStatus" finished-at="2023-07-31T20:36:35 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="ScrollAvailabilityTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:53 IST" name="ScrollAvailabilityTest" finished-at="2023-07-31T20:03:55 IST" depends-on-methods="com.EdgeTest.ProductImagesLoadedTest" duration-ms="2329" status="PASS">
+        <test-method signature="scrollToBottomTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:38 IST" name="scrollToBottomTest" finished-at="2023-07-31T20:36:40 IST" depends-on-methods="com.EdgeTest.ScrollAvailabilityTest" duration-ms="2327" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollAvailabilityTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:55 IST" name="checkStatus" finished-at="2023-07-31T20:03:55 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- scrollToBottomTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:38 IST" name="checkStatus" finished-at="2023-07-31T20:36:38 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,11 +271,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="scrollToBottomTest()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:55 IST" name="scrollToBottomTest" finished-at="2023-07-31T20:03:57 IST" depends-on-methods="com.EdgeTest.ScrollAvailabilityTest" duration-ms="2307" status="PASS">
+        <test-method signature="checkContentRefreshFrequency()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:40 IST" name="checkContentRefreshFrequency" finished-at="2023-07-31T20:36:55 IST" depends-on-methods="com.EdgeTest.scrollToBottomTest" duration-ms="15091" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollToBottomTest -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:57 IST" name="checkStatus" finished-at="2023-07-31T20:03:57 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- checkContentRefreshFrequency -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:40 IST" name="checkStatus" finished-at="2023-07-31T20:36:40 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,11 +291,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method signature="checkContentRefreshFrequency()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:03:57 IST" name="checkContentRefreshFrequency" finished-at="2023-07-31T20:04:13 IST" depends-on-methods="com.EdgeTest.scrollToBottomTest" duration-ms="15078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentRefreshFrequency -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:04:13 IST" name="checkStatus" finished-at="2023-07-31T20:04:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:55 IST" name="checkStatus" finished-at="2023-07-31T20:36:55 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,11 +307,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="CloseProcess()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:04:13 IST" name="CloseProcess" finished-at="2023-07-31T20:04:13 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="CloseProcess()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:55 IST" name="CloseProcess" finished-at="2023-07-31T20:36:56 IST" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseProcess -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:04:13 IST" name="generateReport" finished-at="2023-07-31T20:04:13 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.EdgeTest@45d84a20]" started-at="2023-07-31T20:36:56 IST" name="generateReport" finished-at="2023-07-31T20:36:56 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
